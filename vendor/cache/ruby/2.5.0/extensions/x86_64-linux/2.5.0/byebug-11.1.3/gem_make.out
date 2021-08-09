@@ -1,0 +1,19 @@
+current directory: /home/raphael/Documents/test_easy_pallet/easypallet_backend/vendor/cache/ruby/2.5.0/gems/byebug-11.1.3/ext/byebug
+/home/raphael/.rvm/rubies/ruby-2.5.1/bin/ruby -r ./siteconf20210808-29904-voln39.rb extconf.rb
+creating Makefile
+
+current directory: /home/raphael/Documents/test_easy_pallet/easypallet_backend/vendor/cache/ruby/2.5.0/gems/byebug-11.1.3/ext/byebug
+make "DESTDIR=" clean
+
+current directory: /home/raphael/Documents/test_easy_pallet/easypallet_backend/vendor/cache/ruby/2.5.0/gems/byebug-11.1.3/ext/byebug
+make "DESTDIR="
+compiling breakpoint.c
+compiling byebug.c
+compiling context.c
+compiling locker.c
+compiling threads.c
+linking shared-object byebug/byebug.so
+
+current directory: /home/raphael/Documents/test_easy_pallet/easypallet_backend/vendor/cache/ruby/2.5.0/gems/byebug-11.1.3/ext/byebug
+make "DESTDIR=" install
+/usr/bin/install -m 0755 byebug.so ./.gem.20210808-29904-vxbm7w/byebug

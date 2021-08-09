@@ -1,0 +1,15 @@
+current directory: /home/raphael/Documents/test_easy_pallet/easypallet_backend/vendor/cache/ruby/2.5.0/gems/bindex-0.8.1/ext/skiptrace
+/home/raphael/.rvm/rubies/ruby-2.5.1/bin/ruby -r ./siteconf20210808-29904-s60eql.rb extconf.rb
+creating Makefile
+
+current directory: /home/raphael/Documents/test_easy_pallet/easypallet_backend/vendor/cache/ruby/2.5.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" clean
+
+current directory: /home/raphael/Documents/test_easy_pallet/easypallet_backend/vendor/cache/ruby/2.5.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR="
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.so
+
+current directory: /home/raphael/Documents/test_easy_pallet/easypallet_backend/vendor/cache/ruby/2.5.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" install
+/usr/bin/install -m 0755 cruby.so ./.gem.20210808-29904-qknaq5/skiptrace/internal

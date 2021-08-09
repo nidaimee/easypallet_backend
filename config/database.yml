@@ -17,9 +17,10 @@
 default: &default
   adapter: postgresql
   encoding: unicode
-  # For details on connection pooling, see Rails configuration guide
-  # https://guides.rubyonrails.org/configuring.html#database-pooling
-  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  host: db
+  username: postgres
+  password: password
+  pool: 5 
 
 development:
   <<: *default
@@ -81,5 +82,5 @@ test:
 production:
   <<: *default
   database: easypallet_backend_production
-  username: easypallet_backend
+  username: easypallet_backend_
   password: <%= ENV['EASYPALLET_BACKEND_DATABASE_PASSWORD'] %>
