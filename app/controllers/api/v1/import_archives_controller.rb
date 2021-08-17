@@ -1,4 +1,4 @@
-class Api::V1::ImportRecordsController < Api::V1::BaseController
+class Api::V1::ImportArchivesController < Api::V1::BaseController
     require 'csv'
 
     def import

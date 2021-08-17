@@ -16,6 +16,7 @@ Rails.application.routes.draw do
       end 
 
       get '/orders/:id/sorted', to: 'orders#show_sorted'
+      post '/import_csv', to: 'import_archives#import'
 
     end
   end
