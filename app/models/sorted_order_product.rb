@@ -1,4 +1,4 @@
 class SortedOrderProduct < ApplicationRecord
-  belongs_to :order
-  belongs_to :product
+  belongs_to :order, optional: true
+  belongs_to :product, optional: true
 end
