@@ -10,7 +10,7 @@
   <tr>
     <td>Rails version</td>
     <td>
-      6.1.x
+      6.0.x
     </td>
   </tr>
   <tr>
