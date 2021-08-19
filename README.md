@@ -54,7 +54,7 @@ docker-compose run web bundle exec rspec
 ### Test API(Import CSV) with Postman
 
 ```bash
-curl --location --request POST 'localhost:3000/api/v1/imports/csv' \
+curl --location --request POST 'https://easypalletbackend.herokuapp.com/api/v1/imports/csv' \
 --form 'file=@"/home/raphael/Downloads/EASY PALLET - DESAFIO RUBY - Página1.csv"'
 ```
 
