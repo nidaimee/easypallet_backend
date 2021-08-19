@@ -49,8 +49,6 @@ The backend is available at `http://localhost:3000`.
 
 ## Tests
 
-![Tests](https://github.com/nidaimee/easypallet_backend/actions/workflows/ruby.yml/badge.svg)
-
 To run the tests:
 
 ```bash
