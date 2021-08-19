@@ -54,3 +54,8 @@ To run the tests:
 ```bash
 docker-compose run web bundle exec rspec 
 ```
+### Test API with Postman
+
+curl --location --request POST 'localhost:3000/api/v1/imports/csv' \
+--form 'file=@"/home/raphael/Downloads/EASY PALLET - DESAFIO RUBY - Página1.csv"'
+
