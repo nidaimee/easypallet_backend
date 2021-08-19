@@ -1,4 +1,4 @@
-# Test EasyPallet (Backend)
+# Teste EasyPallet (Backend)
 
 <table>
   <tr>
