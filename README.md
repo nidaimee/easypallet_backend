@@ -30,9 +30,6 @@ git clone https://github.com/nidaimee/easypallet_backend.git
 # enter the cloned directory
 cd easypallet_backend
 
-# install Ruby on Rails dependencies
-bundle install
-
 # Build docker-compose
 docker-compose build
 
