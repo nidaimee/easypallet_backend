@@ -1,0 +1,15 @@
+current directory: /home/raphael/Documents/test_easy_pallet/easypallet_backend/vendor/cache/ruby/3.0.0/gems/bootsnap-1.7.7/ext/bootsnap
+/home/raphael/.rvm/rubies/ruby-3.0.2/bin/ruby -I /home/raphael/.rvm/rubies/ruby-3.0.2/lib/ruby/3.0.0 -r ./siteconf20210818-15235-sz3gzd.rb extconf.rb
+creating Makefile
+
+current directory: /home/raphael/Documents/test_easy_pallet/easypallet_backend/vendor/cache/ruby/3.0.0/gems/bootsnap-1.7.7/ext/bootsnap
+make DESTDIR\= clean
+
+current directory: /home/raphael/Documents/test_easy_pallet/easypallet_backend/vendor/cache/ruby/3.0.0/gems/bootsnap-1.7.7/ext/bootsnap
+make DESTDIR\=
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.so
+
+current directory: /home/raphael/Documents/test_easy_pallet/easypallet_backend/vendor/cache/ruby/3.0.0/gems/bootsnap-1.7.7/ext/bootsnap
+make DESTDIR\= install
+/usr/bin/install -m 0755 bootsnap.so ./.gem.20210818-15235-4g0zfn/bootsnap
