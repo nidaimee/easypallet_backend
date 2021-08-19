@@ -54,7 +54,7 @@ To run the tests:
 ```bash
 docker-compose run web bundle exec rspec 
 ```
-### Test API with Postman
+### Test API(Import CSV) with Postman
 
 ```bash
 curl --location --request POST 'localhost:3000/api/v1/imports/csv' \
