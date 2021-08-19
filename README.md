@@ -1,24 +1,58 @@
-# README
+# Test EasyPallet (Backend)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+<table>
+  <tr>
+    <td>Ruby version</td>
+    <td>
+      3.0.2
+    </td>
+  </tr>
+  <tr>
+    <td>Rails version</td>
+    <td>
+      6.1.x
+    </td>
+  </tr>
+  <tr>
+    <td>Database</td>
+    <td>
+     PostgreSQL
+    </td>
+  </tr>
+</table>
 
-Things you may want to cover:
+## Initial settings to run the project
 
-* Ruby version
+```bash
+# clone the project
+git clone https://github.com/nidaimee/easypallet_backend.git
 
-* System dependencies
+# enter the cloned directory
+cd easypallet_backend
 
-* Configuration
+# install Ruby on Rails dependencies
+bundle install
 
-* Database creation
+# Build docker-compose
+docker-compose build
 
-* Database initialization
+# create the development and test databases
+docker-compose run web rake db:create
 
-* How to run the test suite
+# create the tables
+docker-compose run web rake db:migrate
 
-* Services (job queues, cache servers, search engines, etc.)
+# run the project
+docker-compose up
 
-* Deployment instructions
+The backend is available at `http://localhost:3000`.
 
-* ...
+## Tests
+
+![Tests](https://github.com/nidaimee/easypallet_backend/actions/workflows/ruby.yml/badge.svg)
+
+To run the tests:
+
+```bash
+docker-compose run web bundle exec rspec 
+```
